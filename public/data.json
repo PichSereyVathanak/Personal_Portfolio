@@ -1,0 +1,498 @@
+{
+  "en": {
+    "name": "Pichsereyvathanak Khy",
+    "role": "Data Science Student",
+    "quote": "Transforming raw data into actionable insights through machine learning and analytics.",
+    "email": "pichsereyvathanak.khy@gmail.com",
+    "phone": "+(855) 87 885 064",
+    "location": "Phnom Penh, Cambodia",
+    "cvUrl": "/Pichsereyvathanak-KHY_CV.pdf",
+    "about": {
+      "intro": "I'm a passionate data science student focused on building machine learning models and data analysis solutions. With expertise in Python, statistics, and data visualization, I transform complex datasets into meaningful insights.",
+      "bio": "Currently pursuing my degree in Computer Science with specialized on Data Science at Cambodia Academy of Digital Technology (CADT). I have hands-on experience with real-world datasets and a strong foundation in mathematics and programming. My goal is to leverage data-driven approaches to solve impactful problems in the tech industry.",
+      "education": [
+        {
+          "institution": "Cambodia Academy of Digital Technology - CADT",
+          "degree": "Bachelor of Computer Science",
+          "field": "Specialized Data Science",
+          "startDate": "February 2023",
+          "endDate": "December 2027",
+          "description": ["Techo Digital Talent Scholarship Recipient",
+                          "Foundation Year GPA: 3.95 | Year 2 GPA: 3.97",
+                          "Program Lead — Next Gen Engagement Program (Batch II)",
+                          "Volunteer: Code-C 2025, ACET 2025, AI4Education at CADT"]
+        }
+      ],
+      "experience": [
+        {
+          "position": "Data Entry Assistant (Accounting Department)",
+          "company": "LHY Sing Yong CO., LTD. | Part-time",
+          "startDate": "Jan 2026",
+          "endDate": "Present",
+          "description": ["Entered monthly expense and invoice data into Excel to support tax declaration for client companies",
+                          "Ensured accuracy and consistency of financial data entries" ]
+        }
+      ],
+      "skills": {
+        "programming": [
+          { "name": "Python", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+          { "name": "R", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" },
+          { "name": "SQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
+          { "name": "JavaScript", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" }
+        ],
+        "dataTools": [
+          { "name": "TensorFlow", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" },
+          { "name": "Pandas", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" },
+          { "name": "Scikit-learn", "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
+          { "name": "PyTorch", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" },
+          { "name": "Matplotlib", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/512px-Matplotlib_icon.svg.png" },
+          { "name": "Power BI", "logo": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/powerbi.svg" },
+          { "name": "Tableau", "logo": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tableau.svg" }
+        ],
+        "softSkills": ["Problem Solving", "Communication", "Team Collaboration", "Project Management", "Critical Thinking"]
+      }
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Customer Churn Prediction Using RapidMiner",
+        "description": "Built a machine learning model using Random Forest and Gradient Boosting to predict customer churn with 87% accuracy. Implemented feature engineering and model optimization techniques.",
+        "problemStatement": "A telecommunications company was losing 20% of their customers annually but didn't know which customers were at risk. They needed a predictive model to identify high-risk customers before they leave.",
+        "detailedDescription": "I developed an end-to-end machine learning pipeline that processes historical customer data including usage patterns, billing information, and demographics. The model uses ensemble methods combining Random Forest and Gradient Boosting algorithms to achieve 87% accuracy. Feature engineering involved creating interaction features and temporal indicators. The solution enabled the company to implement targeted retention strategies.",
+        "technologies": ["Python", "Scikit-learn", "Pandas", "XGBoost", "Matplotlib"],
+        "tags": ["Machine Learning", "Classification", "Python", "Scikit-learn"],
+        "image": "/images/project1.jpg",
+        "githubLink": "https://github.com/alexjohnson/churn-prediction",
+        "liveLink": "https://churn-prediction-demo.streamlit.app",
+        "date": "2026"
+      },
+      {
+        "id": 2,
+        "title": "KonnYoeung - Capstone Project",
+        "description": "Developed a regression model using neural networks to predict house prices. Created an interactive web dashboard for visualization using Streamlit.",
+        "problemStatement": "Real estate agents struggled to provide accurate price estimates for properties, leading to mispriced listings and extended time-on-market. An automated valuation system was needed.",
+        "detailedDescription": "I constructed a deep learning regression model using TensorFlow/Keras with multiple hidden layers and dropout regularization to prevent overfitting. The model analyzes property features including location, square footage, age, and amenities. Implemented an interactive Streamlit dashboard allowing agents to input property details and receive instant price predictions with confidence intervals.",
+        "technologies": ["Python", "TensorFlow", "Streamlit", "Pandas", "NumPy", "Scikit-learn"],
+        "tags": ["Deep Learning", "Regression", "Neural Networks", "Streamlit"],
+        "image": "/images/project2.jpg",
+        "githubLink": "https://github.com/alexjohnson/real-estate-prediction",
+        "liveLink": "https://real-estate-predictor.streamlit.app",
+        "date": "2026"
+      }
+    ],
+    "leadership": [
+      {
+        "id": 1,
+        "title": "Program lead - Next-Gen Engagement Program - Batch II",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "Next-Gen Engagement Program - Batch II, a 5-week program during the school break supported by the Computer Science Department at CADT",
+        "detailedDescription": [
+          "Oversaw end-to-end program planning and execution, from initial concept development to final implementation",
+          "Managed and coordinated all organizer tasks and workflows, ensuring smooth weekly operations",
+          "Prepared and submitted weekly progress reports to the Computer Science Department",
+          "Led the successful delivery of the program and its closing event, Next-Gen's Day, showcasing student projects",
+          "Coordinated participation of 250+ attendees, including Year 1–Year 4 students and CS department lecturers",
+          "Initiated early planning starting in May, handling logistics, schedules, and team coordination",
+          "Worked closely with a 15-member organizing team, taking on multiple roles including MC, instructor, negotiator, digital marketer, designer, content creator, and event promoter",
+          "Ensured high program quality and student engagement through continuous improvement and collaboration"
+        ],
+        "impact": "Successfully host the 6 week program of learning and projects teamwork, also the Next-Gen's Day with over 250 participants. We're set a great example (or landmark) and built a strong foundation for the next generation (Batch III) to follow and make it even better.",
+        "tags": ["Leadership", "Community Building", "Tech Community"],
+        "image": "/images/leadership1.jpg",
+        "images": ["/images/leadership1.jpg", "/images/leadership1-2.jpg", "/images/leadership1-3.jpg",
+                  "/images/leadership1-4.jpg", "/images/leadership1-5.jpg", "/images/leadership1-6.jpg"],
+        "date": "May 2025 - Sept 2025"
+      },
+      {
+        "id": 2,
+        "title": "Session Coodinator - DGF 2025",
+        "organization": "Digital Goverment Committee",
+        "description": "Digital Government Forum (DGF) 2025, held under the theme “Accelerating Digital Future: Governance, Growth, and Global Partnerships.”",
+        "detailedDescription": [
+          "I supported the speakers and moderator for Session 15: “Connecting Digital Innovation Ecosystems - From Digital Parks and Investment to Regional Startup Growth.”",
+          "Over the three days, I witnessed Cambodia's digital momentum - from engaging discussions and tech showcases to the exciting announcement of Cambodia's 5G launch in early 2026, opening new opportunities for innovation and connectivity."
+        ],
+        "impact": "tbc",
+        "tags": ["Volunteer", "Digital"],
+        "image": "/images/leadership2.jpg",
+        "images": ["/images/leadership2.jpg", "/images/leadership2-2.jpg", "/images/leadership2-3.jpg",
+                  "/images/leadership2-4.jpg", "/images/leadership2-5.jpg", "/images/leadership2-6.jpg"],
+        "date": "5-7 Dec 2025"
+      },
+      {
+        "id": 3,
+        "title": "Flow Team - Ai4Education 2025",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "Ai4Education 2025, a national competition and conference focused on AI in education, bringing together students, lecturers, researchers, and industry-related participants",
+        "detailedDescription": [
+          "Supported event flow operations over 3 days to ensure smooth coordination and execution",
+          "Assisted on Day 1 (Student Competition Day), where students showcased projects developed during the program",
+          "Supported Days 2-3 (Conference Days), including panel discussions, workshops, booth showcases, and networking activities",
+          "Collaborated with CCTimes and Bong Kry Lita to provide accurate event information and images for media coverage",
+          "Reviewed and verified article content and image usage to ensure relevance, accuracy, and alignment with the event context",
+          "Contributed to maintaining a professional public image of the event through careful coordination with media partners"
+        ],
+        "impact": "tbc",
+        "tags": ["Flow Team", "Communication"],
+        "image": "/images/leadership3.jpg",
+        "images": ["/images/leadership3.jpg", "/images/leadership3-2.jpg", "/images/leadership3-3.jpg"],
+        "date": "November 2025"
+      },
+      {
+        "id": 4,
+        "title": "Volunteer - ACET 2025",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "ACET is the ASEAN conference that focuses on the latest research and Development in digital technology but more specifically on Natural Language Processing (NLP), Data Science, Networking & IoT, Artificial Intelligence (AI). ACET conference aims to connect researchers' knowledge and Building applications for smarter societies.",
+        "detailedDescription": [
+          "tbc"
+        ],
+        "impact": "tbc",
+        "tags": ["Flow Team", "Communication"],
+        "image": "/images/leadership4.jpg",
+        "images": ["/images/leadership4.jpg"],
+        "date": "November 2025"
+      },
+      {
+        "id": 5,
+        "title": "Flow Team - Code C 2025",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "CODE-C 2025, a developer conference focused on AI applications and emerging technologies for real-world impact",
+        "detailedDescription": [
+          "Supported event operations during 10-11 October 2025, organized by CADT",
+          "Provided clear guidance to participants on session topics, schedules, allocated time slots, and room locations",
+          "Coordinated session flow to ensure on-time transitions between talks and activities",
+          "Assisted speakers in the Co-Working Room, supporting logistics and session preparation",
+          "Worked closely with 8 speakers across two days, covering topics ranging from business and healthcare to inclusive design for Cambodia",
+          "Contributed to a smooth and professional conference experience for both speakers and attendees"
+        ],
+        "impact": "tbc",
+        "tags": ["Communication", "Technology"],
+        "image": "/images/leadership5.jpg",
+        "images": ["/images/leadership5.jpg", "/images/leadership5-2.jpg", "/images/leadership5-3.jpg"],
+        "date": "Aug-Oct 2025"
+      },
+      {
+        "id": 6,
+        "title": "School Facilitator - University & TVET Fair 2024",
+        "organization": "SALATECH PTE LTD",
+        "description": "University & TVET Fair 2024, an education and career fair focused on high school students exploring university options and university students seeking job opportunities.",
+        "detailedDescription": [
+          "Began first volunteer experience with Sala.co Events, gaining hands-on exposure to large-scale event coordination",
+          "Served as a School Facilitator, coordinating with high school students and teachers throughout the event",
+          "Managed student attendance and headcounts, ensuring accurate numbers and smooth group movement",
+          "Supported student engagement by guiding participants and helping them enjoy the event experience",
+          "Participated in self-development workshops provided by organizers, covering communication skills, event operations, and stakeholder coordination",
+          "Collaborated with a diverse group of students, teachers, and professionals, strengthening interpersonal and teamwork skills"
+        ],
+        "impact": "tbc",
+        "tags": ["Frist-Volunteer", "Communication", "Youth"],
+        "image": "/images/leadership6.jpg",
+        "images": ["/images/leadership6.jpg", "/images/leadership6-2.jpg", "/images/leadership6-3.jpg"],
+        "date": "Aug-Dec 2025"
+      }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "title": "AI for Asia Fellowship 2025",
+        "issuer": "Siklab",
+        "date": "Oct 2025",
+        "credentialUrl": "https://www.linkedin.com/in/pichsereyvathanak-khy/",
+        "image": "/images/cert1.png"
+      },
+      {
+        "id": 2,
+        "title": "Introduction to Artificial Intelligence",
+        "issuer": "Simplilearn",
+        "date": "Jan 2026",
+        "credentialUrl": "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI5MzIiLCJjZXJ0aWZpY2F0ZV91cmwiOiJodHRwczpcL1wvY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXRcL3NoYXJlXC85NzY3MTczXzEwMDQ4MzcxXzE3Njk1MDYyODM5ODcucG5nIiwidXNlcm5hbWUiOiJQaWNoc2VyZXl2YXRoYW5hayBLaHkifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F3667%2FIntroduction-to-Artificial-Intelligence%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1549621536109249599&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVD%2FRPLzX196tKN0iyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAGSO4FhBAAAA",
+        "image": "/images/cert2.png"
+      },
+      {
+        "id": 3,
+        "title": "Introduction to Data Mining Course",
+        "issuer": "Simplilearn",
+        "date": "Jan 2026",
+        "credentialUrl": "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIyNDk3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTc0MzEyNV8xMDAxNTY3OF8xNzY4OTk4MTgwMjI0LnBuZyIsInVzZXJuYW1lIjoiTXIuIFBpY2hzZXJleXZhdGhhbmFrIEtoeSJ9&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F5185%2FIntroduction-to-Data-Mining-Course%2F%28certificate%2Fdownload-skillup%2F%2Fcertificate%3Acertificate-locked-new%29&%24web_only=true&_branch_match_id=1549621536109249599&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVL%2FIqTvd38vc3i0qyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAEP1gBJBAAAA",
+        "image": "/images/cert3.png"
+      },
+      {
+        "id": 4,
+        "title": "Public Speaking and Presentation Skills",
+        "issuer": "AmCam Exchange",
+        "date": "Sept 2025",
+        "credentialUrl": "https://www.linkedin.com/in/pichsereyvathanak-khy/",
+        "image": "/images/cert4.png"
+      }
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/pichsereyvathanak-khy/",
+      "github": "https://github.com/PichSereyVathanak/",
+      "telegram": "https://t.me/n_vath"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "leadership": "Leadership",
+      "certificates": "Certificates",
+      "contact": "Contact"
+    },
+    "buttons": {
+      "getInTouch": "Get In Touch",
+      "downloadCv": "Download CV",
+      "viewCode": "View Code",
+      "viewDetails": "View Details",
+      "send": "Send Message",
+      "success": "Message Sent!"
+    }
+  },
+  "km": {
+        "name": "ឃី ពេជ្រសេរីវឌ្ឍនៈ",
+    "role": "និស្សិតផ្នែកវិទ្យាសាស្ត្រទិន្នន័យ",
+    "quote": "Transforming raw data into actionable insights through machine learning and analytics.",
+    "email": "pichsereyvathanak.khy@gmail.com",
+    "phone": "+(855) 87 885 064",
+    "location": "រាជធានីភ្នំពេញ, ប្រទេសកម្ពុជា",
+    "cvUrl": "/Pichsereyvathanak-KHY_CV.pdf",
+    "about": {
+      "intro": "I'm a passionate data science student focused on building machine learning models and data analysis solutions. With expertise in Python, statistics, and data visualization, I transform complex datasets into meaningful insights.",
+      "bio": "Currently pursuing my degree in Computer Science with specialized on Data Science at Cambodia Academy of Digital Technology (CADT). I have hands-on experience with real-world datasets and a strong foundation in mathematics and programming. My goal is to leverage data-driven approaches to solve impactful problems in the tech industry.",
+      "education": [
+        {
+          "institution": "បណ្ឌិត្យសភាបច្ចេកវិទ្យាឌីជីថលកម្ពុជា - CADT",
+          "degree": "បរិញ្ញាបត្រវិទ្យាសាស្ត្រកុំព្យូទ័រ",
+          "field": "ឯកទេស វិទ្យាសាស្ត្រទិន្នន័យ",
+          "startDate": "ខែកុម្ភៈ ឆ្នាំ2023",
+          "endDate": "ខែធ្នូ ឆ្នាំ2023",
+          "description": ["Techo Digital Talent Scholarship Recipient",
+                          "Foundation Year GPA: 3.95 | Year 2 GPA: 3.97",
+                          "Program Lead — Next Gen Engagement Program (Batch II)",
+                          "Volunteer: Code-C 2025, ACET 2025, AI4Education at CADT"]
+        }
+      ],
+      "experience": [
+        {
+          "position": "Data Entry Assistant (Accounting Department)",
+          "company": "LHY Sing Yong CO., LTD. | Part-time",
+          "startDate": "Jan 2026",
+          "endDate": "Present",
+          "description": ["Entered monthly expense and invoice data into Excel to support tax declaration for client companies",
+                          "Ensured accuracy and consistency of financial data entries" ]
+        }
+      ],
+      "skills": {
+        "programming": [
+          { "name": "Python", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+          { "name": "R", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" },
+          { "name": "SQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
+          { "name": "JavaScript", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" }
+        ],
+        "dataTools": [
+          { "name": "TensorFlow", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" },
+          { "name": "Pandas", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" },
+          { "name": "Scikit-learn", "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
+          { "name": "PyTorch", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" },
+          { "name": "Matplotlib", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/512px-Matplotlib_icon.svg.png" },
+          { "name": "Power BI", "logo": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/powerbi.svg" },
+          { "name": "Tableau", "logo": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tableau.svg" }
+        ],
+        "softSkills": ["Problem Solving", "Communication", "Team Collaboration", "Project Management", "Critical Thinking"]
+      }
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Customer Churn Prediction Using RapidMiner",
+        "description": "Built a machine learning model using Random Forest and Gradient Boosting to predict customer churn with 87% accuracy. Implemented feature engineering and model optimization techniques.",
+        "problemStatement": "A telecommunications company was losing 20% of their customers annually but didn't know which customers were at risk. They needed a predictive model to identify high-risk customers before they leave.",
+        "detailedDescription": "I developed an end-to-end machine learning pipeline that processes historical customer data including usage patterns, billing information, and demographics. The model uses ensemble methods combining Random Forest and Gradient Boosting algorithms to achieve 87% accuracy. Feature engineering involved creating interaction features and temporal indicators. The solution enabled the company to implement targeted retention strategies.",
+        "technologies": ["Python", "Scikit-learn", "Pandas", "XGBoost", "Matplotlib"],
+        "tags": ["Machine Learning", "Classification", "Python", "Scikit-learn"],
+        "image": "/images/project1.jpg",
+        "githubLink": "https://github.com/alexjohnson/churn-prediction",
+        "liveLink": "https://churn-prediction-demo.streamlit.app",
+        "date": "2026"
+      },
+      {
+        "id": 2,
+        "title": "KonnYoeung - Capstone Project",
+        "description": "Developed a regression model using neural networks to predict house prices. Created an interactive web dashboard for visualization using Streamlit.",
+        "problemStatement": "Real estate agents struggled to provide accurate price estimates for properties, leading to mispriced listings and extended time-on-market. An automated valuation system was needed.",
+        "detailedDescription": "I constructed a deep learning regression model using TensorFlow/Keras with multiple hidden layers and dropout regularization to prevent overfitting. The model analyzes property features including location, square footage, age, and amenities. Implemented an interactive Streamlit dashboard allowing agents to input property details and receive instant price predictions with confidence intervals.",
+        "technologies": ["Python", "TensorFlow", "Streamlit", "Pandas", "NumPy", "Scikit-learn"],
+        "tags": ["Deep Learning", "Regression", "Neural Networks", "Streamlit"],
+        "image": "/images/project2.jpg",
+        "githubLink": "https://github.com/alexjohnson/real-estate-prediction",
+        "liveLink": "https://real-estate-predictor.streamlit.app",
+        "date": "2026"
+      }
+    ],
+    "leadership": [
+      {
+        "id": 1,
+        "title": "Program lead - Next-Gen Engagement Program - Batch II",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "Next-Gen Engagement Program - Batch II, a 5-week program during the school break supported by the Computer Science Department at CADT",
+        "detailedDescription": [
+          "Oversaw end-to-end program planning and execution, from initial concept development to final implementation",
+          "Managed and coordinated all organizer tasks and workflows, ensuring smooth weekly operations",
+          "Prepared and submitted weekly progress reports to the Computer Science Department",
+          "Led the successful delivery of the program and its closing event, Next-Gen's Day, showcasing student projects",
+          "Coordinated participation of 250+ attendees, including Year 1–Year 4 students and CS department lecturers",
+          "Initiated early planning starting in May, handling logistics, schedules, and team coordination",
+          "Worked closely with a 15-member organizing team, taking on multiple roles including MC, instructor, negotiator, digital marketer, designer, content creator, and event promoter",
+          "Ensured high program quality and student engagement through continuous improvement and collaboration"
+        ],
+        "impact": "Successfully host the 6 week program of learning and projects teamwork, also the Next-Gen's Day with over 250 participants. We're set a great example (or landmark) and built a strong foundation for the next generation (Batch III) to follow and make it even better.",
+        "tags": ["Leadership", "Community Building", "Tech Community"],
+        "image": "/images/leadership1.jpg",
+        "images": ["/images/leadership1.jpg", "/images/leadership1-2.jpg", "/images/leadership1-3.jpg",
+                  "/images/leadership1-4.jpg", "/images/leadership1-5.jpg", "/images/leadership1-6.jpg"],
+        "date": "May 2025 - Sept 2025"
+      },
+      {
+        "id": 2,
+        "title": "Session Coodinator - DGF 2025",
+        "organization": "Digital Goverment Committee",
+        "description": "Digital Government Forum (DGF) 2025, held under the theme “Accelerating Digital Future: Governance, Growth, and Global Partnerships.”",
+        "detailedDescription": [
+          "I supported the speakers and moderator for Session 15: “Connecting Digital Innovation Ecosystems - From Digital Parks and Investment to Regional Startup Growth.”",
+          "Over the three days, I witnessed Cambodia's digital momentum - from engaging discussions and tech showcases to the exciting announcement of Cambodia's 5G launch in early 2026, opening new opportunities for innovation and connectivity."
+        ],
+        "impact": "tbc",
+        "tags": ["Volunteer", "Digital"],
+        "image": "/images/leadership2.jpg",
+        "images": ["/images/leadership2.jpg", "/images/leadership2-2.jpg", "/images/leadership2-3.jpg",
+                  "/images/leadership2-4.jpg", "/images/leadership2-5.jpg", "/images/leadership2-6.jpg"],
+        "date": "5-7 Dec 2025"
+      },
+      {
+        "id": 3,
+        "title": "Flow Team - Ai4Education 2025",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "Ai4Education 2025, a national competition and conference focused on AI in education, bringing together students, lecturers, researchers, and industry-related participants",
+        "detailedDescription": [
+          "Supported event flow operations over 3 days to ensure smooth coordination and execution",
+          "Assisted on Day 1 (Student Competition Day), where students showcased projects developed during the program",
+          "Supported Days 2-3 (Conference Days), including panel discussions, workshops, booth showcases, and networking activities",
+          "Collaborated with CCTimes and Bong Kry Lita to provide accurate event information and images for media coverage",
+          "Reviewed and verified article content and image usage to ensure relevance, accuracy, and alignment with the event context",
+          "Contributed to maintaining a professional public image of the event through careful coordination with media partners"
+        ],
+        "impact": "tbc",
+        "tags": ["Education", "Communication"],
+        "image": "/images/leadership3.jpg",
+        "images": ["/images/leadership3.jpg", "/images/leadership3-2.jpg", "/images/leadership3-3.jpg"],
+        "date": "November 2025"
+      },
+      {
+        "id": 4,
+        "title": "Volunteer - ACET 2025",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "ACET is the ASEAN conference that focuses on the latest research and Development in digital technology but more specifically on Natural Language Processing (NLP), Data Science, Networking & IoT, Artificial Intelligence (AI). ACET conference aims to connect researchers' knowledge and Building applications for smarter societies.",
+        "detailedDescription": [
+          "tbc"
+        ],
+        "impact": "tbc",
+        "tags": ["Flow Team", "Communication"],
+        "image": "/images/leadership4.jpg",
+        "images": ["/images/leadership4.jpg"],
+        "date": "November 2025"
+      },
+      {
+        "id": 5,
+        "title": "Flow Team - Code C 2025",
+        "organization": "Cambodia Academy of Digital Technology",
+        "description": "CODE-C 2025, a developer conference focused on AI applications and emerging technologies for real-world impact",
+        "detailedDescription": [
+          "Supported event operations during 10-11 October 2025, organized by CADT",
+          "Provided clear guidance to participants on session topics, schedules, allocated time slots, and room locations",
+          "Coordinated session flow to ensure on-time transitions between talks and activities",
+          "Assisted speakers in the Co-Working Room, supporting logistics and session preparation",
+          "Worked closely with 8 speakers across two days, covering topics ranging from business and healthcare to inclusive design for Cambodia",
+          "Contributed to a smooth and professional conference experience for both speakers and attendees"
+        ],
+        "impact": "tbc",
+        "tags": ["Communication", "Technology"],
+        "image": "/images/leadership5.jpg",
+        "images": ["/images/leadership5.jpg", "/images/leadership5-2.jpg", "/images/leadership5-3.jpg"],
+        "date": "Aug-Oct 2025"
+      },
+      {
+        "id": 6,
+        "title": "School Facilitator - University & TVET Fair 2024",
+        "organization": "SALATECH PTE LTD",
+        "description": "University & TVET Fair 2024, an education and career fair focused on high school students exploring university options and university students seeking job opportunities.",
+        "detailedDescription": [
+          "Began first volunteer experience with Sala.co Events, gaining hands-on exposure to large-scale event coordination",
+          "Served as a School Facilitator, coordinating with high school students and teachers throughout the event",
+          "Managed student attendance and headcounts, ensuring accurate numbers and smooth group movement",
+          "Supported student engagement by guiding participants and helping them enjoy the event experience",
+          "Participated in self-development workshops provided by organizers, covering communication skills, event operations, and stakeholder coordination",
+          "Collaborated with a diverse group of students, teachers, and professionals, strengthening interpersonal and teamwork skills"
+        ],
+        "impact": "tbc",
+        "tags": ["Frist-Volunteer", "Communication", "Youth"],
+        "image": "/images/leadership6.jpg",
+        "images": ["/images/leadership6.jpg", "/images/leadership6-2.jpg", "/images/leadership6-3.jpg"],
+        "date": "Aug-Dec 2025"
+      }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "title": "AI for Asia Fellowship 2025",
+        "issuer": "Siklab",
+        "date": "Oct 2025",
+        "credentialUrl": "https://www.linkedin.com/in/pichsereyvathanak-khy/",
+        "image": "/images/cert1.png"
+      },
+      {
+        "id": 2,
+        "title": "Introduction to Artificial Intelligence",
+        "issuer": "Simplilearn",
+        "date": "Jan 2026",
+        "credentialUrl": "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI5MzIiLCJjZXJ0aWZpY2F0ZV91cmwiOiJodHRwczpcL1wvY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXRcL3NoYXJlXC85NzY3MTczXzEwMDQ4MzcxXzE3Njk1MDYyODM5ODcucG5nIiwidXNlcm5hbWUiOiJQaWNoc2VyZXl2YXRoYW5hayBLaHkifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F3667%2FIntroduction-to-Artificial-Intelligence%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1549621536109249599&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVD%2FRPLzX196tKN0iyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAGSO4FhBAAAA",
+        "image": "/images/cert2.png"
+      },
+      {
+        "id": 3,
+        "title": "Introduction to Data Mining Course",
+        "issuer": "Simplilearn",
+        "date": "Jan 2026",
+        "credentialUrl": "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIyNDk3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTc0MzEyNV8xMDAxNTY3OF8xNzY4OTk4MTgwMjI0LnBuZyIsInVzZXJuYW1lIjoiTXIuIFBpY2hzZXJleXZhdGhhbmFrIEtoeSJ9&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F5185%2FIntroduction-to-Data-Mining-Course%2F%28certificate%2Fdownload-skillup%2F%2Fcertificate%3Acertificate-locked-new%29&%24web_only=true&_branch_match_id=1549621536109249599&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVL%2FIqTvd38vc3i0qyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAEP1gBJBAAAA",
+        "image": "/images/cert3.png"
+      },
+      {
+        "id": 4,
+        "title": "Public Speaking and Presentation Skills",
+        "issuer": "AmCam Exchange",
+        "date": "Sept 2025",
+        "credentialUrl": "https://www.linkedin.com/in/pichsereyvathanak-khy/",
+        "image": "/images/cert4.png"
+      }
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/pichsereyvathanak-khy/",
+      "github": "https://github.com/PichSereyVathanak/",
+      "telegram": "https://t.me/n_vath"
+    },
+    "nav": {
+      "home": "ទំព័រដើម",
+      "about": "អំពីខ្ញុំ",
+      "projects": "គម្រោង",
+      "leadership": "ភាពជាអ្នកដឹកនាំ",
+      "certificates": "សញ្ញាបត្រ",
+      "contact": "ទំនាក់ទំនងខ្ញុំ"
+    },
+    "buttons": {
+      "getInTouch": "ទំនាក់ទំនងខ្ញុំ",
+      "downloadCv": "ទាញយកប្រវត្តិរូបសង្ខេប",
+      "viewCode": "View Code",
+      "viewDetails": "អានបន្ថែម",
+      "send": "ផ្ញើសារ",
+      "success": "សារត្រូវបានផ្ញើដោយជោគជ័យ!"
+    }
+  }
+}
