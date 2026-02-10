@@ -54,7 +54,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="space-y-6"
+            className="space-y-6 md:order-1 order-2"
           >
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
@@ -100,7 +100,7 @@ export default function Home() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="relative h-64 md:h-96 rounded-lg overflow-hidden bg-muted shadow-lg"
+            className="relative h-64 md:h-96 rounded-lg overflow-hidden bg-muted shadow-lg md:order-2 order-1"
           >
             <Image
               src="/images/pichsereyvathanak.JPG"
