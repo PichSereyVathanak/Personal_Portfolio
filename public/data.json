@@ -98,9 +98,9 @@
         ],
         "impact": "Successfully host the 6 week program of learning and projects teamwork, also the Next-Gen's Day with over 250 participants. We're set a great example (or landmark) and built a strong foundation for the next generation (Batch III) to follow and make it even better.",
         "tags": ["Leadership", "Community Building", "Tech Community"],
-        "image": "/images/leadership1.jpg",
-        "images": ["/images/leadership1.jpg", "/images/leadership1-2.jpg", "/images/leadership1-3.jpg",
-                  "/images/leadership1-4.jpg", "/images/leadership1-5.jpg", "/images/leadership1-6.jpg"],
+        "image": "/images/leadership1.JPG",
+        "images": ["/images/leadership1.JPG", "/images/leadership1-2.JPG", "/images/leadership1-3.JPG",
+            "/images/leadership1-4.JPG", "/images/leadership1-5.JPG", "/images/leadership1-6.JPG"],
         "date": "May 2025 - Sept 2025"
       },
       {
@@ -114,9 +114,9 @@
         ],
         "impact": "tbc",
         "tags": ["Volunteer", "Digital"],
-        "image": "/images/leadership2.jpg",
-        "images": ["/images/leadership2.jpg", "/images/leadership2-2.jpg", "/images/leadership2-3.jpg",
-                  "/images/leadership2-4.jpg", "/images/leadership2-5.jpg", "/images/leadership2-6.jpg"],
+        "image": "/images/leadership2.JPG",
+        "images": ["/images/leadership2.JPG", "/images/leadership2-2.JPG", "/images/leadership2-3.JPG",
+            "/images/leadership2-4.JPG", "/images/leadership2-5.JPG", "/images/leadership2-6.JPG"],
         "date": "5-7 Dec 2025"
       },
       {
@@ -134,8 +134,8 @@
         ],
         "impact": "tbc",
         "tags": ["Flow Team", "Communication"],
-        "image": "/images/leadership3.jpg",
-        "images": ["/images/leadership3.jpg", "/images/leadership3-2.jpg", "/images/leadership3-3.jpg"],
+        "image": "/images/leadership3.JPG",
+        "images": ["/images/leadership3.JPG", "/images/leadership3-2.JPG", "/images/leadership3-3.JPG"],
         "date": "November 2025"
       },
       {
@@ -148,8 +148,8 @@
         ],
         "impact": "tbc",
         "tags": ["Flow Team", "Communication"],
-        "image": "/images/leadership4.jpg",
-        "images": ["/images/leadership4.jpg"],
+        "image": "/images/leadership4.JPG",
+        "images": ["/images/leadership4.JPG"],
         "date": "November 2025"
       },
       {
@@ -167,8 +167,8 @@
         ],
         "impact": "tbc",
         "tags": ["Communication", "Technology"],
-        "image": "/images/leadership5.jpg",
-        "images": ["/images/leadership5.jpg", "/images/leadership5-2.jpg", "/images/leadership5-3.jpg"],
+        "image": "/images/leadership5.JPG",
+        "images": ["/images/leadership5.JPG", "/images/leadership5-2.JPG", "/images/leadership5-3.JPG"],
         "date": "Aug-Oct 2025"
       },
       {
@@ -186,8 +186,8 @@
         ],
         "impact": "tbc",
         "tags": ["Frist-Volunteer", "Communication", "Youth"],
-        "image": "/images/leadership6.jpg",
-        "images": ["/images/leadership6.jpg", "/images/leadership6-2.jpg", "/images/leadership6-3.jpg"],
+        "image": "/images/leadership6.JPG",
+        "images": ["/images/leadership6.JPG", "/images/leadership6-2.JPG", "/images/leadership6-3.JPG"],
         "date": "Aug-Dec 2025"
       }
     ],
@@ -222,7 +222,7 @@
         "issuer": "AmCam Exchange",
         "date": "Sept 2025",
         "credentialUrl": "https://www.linkedin.com/in/pichsereyvathanak-khy/",
-        "image": "/images/cert4.png"
+        "image": "/images/cert4.PNG"
       }
     ],
     "social": {

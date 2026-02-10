@@ -103,7 +103,7 @@ export default function Home() {
             className="relative h-64 md:h-96 rounded-lg overflow-hidden bg-muted shadow-lg"
           >
             <Image
-              src="/images/pichsereyvathanak.jpg"
+              src="/images/pichsereyvathanak.JPG"
               alt={data.name}
               fill
               className="object-cover"
