@@ -72,14 +72,14 @@ export default function About() {
           className="space-y-6"
         >
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-2">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
               {data.name}
             </h1>
             <h2 className="text-2xl md:text-3xl text-primary font-semibold mb-4">
               {data.role}
             </h2>
           </div>
-          <p className="text-lg text-foreground/70 italic max-w-2xl mx-auto">
+          <p className="text-lg text-foreground/70 italic mx-auto">
             "{data.quote}"
           </p>
         </motion.div>
@@ -157,7 +157,7 @@ export default function About() {
       </section>
 
       {/* Skills & Technologies */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }} className="space-y-12">
           <motion.h2 variants={itemVariants} className="text-3xl font-bold text-foreground mb-8">
             Skills & Technologies
@@ -166,7 +166,7 @@ export default function About() {
           {/* Programming Languages */}
           <div>
             <h3 className="text-xl font-semibold text-primary mb-6">Programming Languages</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
               {about.skills.programming.map((skill, i) => {
                 const skillName = typeof skill === 'string' ? skill : skill.name;
                 const skillLogo = typeof skill === 'string' ? '' : (skill.logo || '');
@@ -177,7 +177,7 @@ export default function About() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4 }}
                     viewport={{ once: true }}
-                    className="flex flex-col items-center gap-3 p-4 rounded-lg bg-card hover:bg-muted transition"
+                    className="flex flex-col items-center gap-3 p-3 sm:p-4 rounded-lg bg-card hover:bg-muted transition"
                   >
                     {skillLogo && (
                       <img
@@ -199,7 +199,7 @@ export default function About() {
           {/* Data Tools */}
           <div>
             <h3 className="text-xl font-semibold text-primary mb-6">Data Tools & Libraries</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
               {about.skills.dataTools.map((tool, i) => {
                 const toolName = typeof tool === 'string' ? tool : tool.name;
                 const toolLogo = typeof tool === 'string' ? '' : (tool.logo || '');
@@ -210,7 +210,7 @@ export default function About() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4 }}
                     viewport={{ once: true }}
-                    className="flex flex-col items-center gap-3 p-4 rounded-lg bg-card hover:bg-muted transition"
+                    className="flex flex-col items-center gap-3 p-3 sm:p-4 rounded-lg bg-card hover:bg-muted transition"
                   >
                     {toolLogo && (
                       <img
